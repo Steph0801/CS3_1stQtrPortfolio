@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 3rd Graded Exercise submitted by Stephanie Marie Margarito of Cesium</h2>
+    <label> Meal Price: <input id="price"/> </label>
+    <label> Tip: <input id="t" /> </label>
+    <label> Service Charge: <input id="charge" /> </label>
+    <button onclick="totalMeal()"> Accept Input </button>
+    <p>Total Meal: <span id="total"> </span> </p>
+
+    <script>
+        function totalMeal() {
+            let mp = Number(price).value;
+            let tip = Number(t).value;
+            let sc = Number(charge).value;
+            let totalCost = mp + tip + (%sc / 100 * mp);
+
+            total.innerHTML = `<p> ${totalCost} </p>`;
+
+         
+        }
+    </script>
+
+</body>
+</html>
