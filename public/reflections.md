@@ -1,0 +1,23 @@
+# 1st Quarter Reflections
+## 9-Cesium_Margarito
+### List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
+1. Variable Declaration - This is when you declare variables to be used in the code. It is preceded by code words such as 'let', 'var', and 'const' depending on the scope of the variable and how you'll use it. Both 'let' and 'var' can be updated within their scopes but 'let' cannot be redeclared unlike 'var'. 'Const' and 'let' are block-scoped while 'var' depends on where you place it. However, 'var' isn't recommended to be used in modern JavaScript. It is relatively easier to declare since you don't have to worry much about the data type unlike in c++.
+2. Arithmetic Operators - These are operators that perform mathematical operations. There are five known operators to us, namely addition(+), subtraction(-), multiplication(*), division(/), and modulo(%), all of which were used since our lessons in python.
+3. Generating Output using only JavaScript - There are three ways to display the output for your code, through the console, alert dialog boxes, and on the browser window itself. To output through the console, you use console.log, which also helps for detecting errors. Alert diolog boxes, using alert(), displays a pop-up, which is quite unconventional for longer outputs. And lastly, displaying through the browser window by using document.write() is not exactly preferred because of its dangers with overwriting the document once you refresh the page, removing existing content.
+4. Assignment Operators - This assigns a value to variables. The left side is the variable while the right side is the value. You can also shorten mathematical expressions. A single equal symbol(=) also means that you are assigning a value to a variable, in contrast with double(==) and triple(===) equal symbols which compares values.
+5. Control Statements - These direct the flow of your code according to specified conditions. These mostly involve the use of logical and comparison operators.
+### List at least 5 topics that you know and can describe but needs further practice/discussion and why. The why should be per topic listed.
+1. Concatenation - It sometimes becomes hard to determine whether a value is a number or a string, and then determining an output after an arithmetic operation. An example was in LT1 Part 1 where it asks for the out put for "5 + '3' - 2", in which i thought that '3' is concatenated to 5 and -2 which makes it the string, "53 - 2".
+2. Generating output involving HTML - It's not exactly a hard topic to grasp, since I believe I just need further practice to remember the syntax for this.
+3. Getting user input involving HTML - Same as generating outputs, it's not hard to grasp but I haven't fully remembered the syntax for getting user input using HTML, which I might forget when put on the spot.
+4. NaN - As we've encountered in both part 2s of the long tests, we were asked to generate an error message when the input is not a number. Personally, I think I need more exercises that contain such condition to familiarize with how to go about it as I took some time figuring out how to include it in the output.
+5. Number Methods - Similar to other topics, I think we need further practice that involves these functions to familiarize with their syntax.
+### Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
+As my problems with each topic is similar, I'll try to ask for help from others to help me understand these concepts and/or I'll also look up prompts to further enhance my understanding, as well as look up codes that contain these conditions as an example.
+### In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?
+1. Effective
+    1. Speed coding: It was effective for me because we are able to immediately put into practice what was taught and somehow simulates how coding will feel/look like during long tests.
+    2. Demonstrations: The demonstrations of how syntax can affect the output helps because it makes us able to visualize how the code works.
+2. Not Effective
+    1. Lack of practice exercises/take-home: We can generate our own prompts, but not everyone has the capacity to include this to their routine unlike when there are requirements. Otherwise, everything else is effective
+    2. Crammed lessons - Though it can't be helped due to the suspensions, the crammed lessons made it hard to remember certain concepts/topics, for example the isNaN function.
